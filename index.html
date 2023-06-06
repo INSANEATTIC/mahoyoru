@@ -1,0 +1,796 @@
+<html prefix="og: http://ogp.me/ns#">
+
+<head>
+
+<link rel="shortcut icon" href="{Favicon}">
+
+<meta name="viewport" content="width=1280, maximum-scale=1.0">
+
+<title>Неофициальный русский перевод «Mahoutsukai no Yoru: Witch on the Holy Night»</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<meta name="description" content="«Ведьмина ночь» (неофициальный русскоязычный перевод «Mahoutsukai no Yoru: Witch on the Holy Night»)">
+
+<meta name="Keywords" content="mahoutsukai no yoru, witch on the holy night, typemoon, insaneattic, ведьмина ночь, ночь ведьм, ведьма святой ночи, перевод, русский перевод, на русском, новелла, визуальная новелла, визуальный роман, визуалка">
+
+<meta property="og:title" content="«Ведьмина ночь» (неофициальный русскоязычный перевод «Mahoutsukai no Yoru: Witch on the Holy Night»)" />
+
+<meta property="og:url" content="mahoyo.ru" />
+
+<meta property="og:image" content="https://i.imgur.com/7QCoreZ.jpg" />
+
+<meta property="vk:image"  content="https://i.imgur.com/7QCoreZ.jpg" />
+
+<meta property="og:site_name" content="«Ведьмина ночь» (неофициальный русскоязычный перевод «Mahoutsukai no Yoru: Witch on the Holy Night»)" />
+
+<meta property="og:type" content="website" />
+
+<meta name="description" content="«Ведьмина ночь» (неофициальный русскоязычный перевод «Mahoutsukai no Yoru: Witch on the Holy Night»)" />
+
+<meta name="twitter:card" content="summary_large_image" />
+
+<meta name="twitter:image:src" content="https://i.imgur.com/7QCoreZ.jpg" />
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<!--<script type="text/javascript">if (screen.width <= 480) {window.location = "/sp/";}</script>-->
+
+<style>
+
+.tmblr-iframe-compact .tmblr-iframe--unified-controls {display:none;}
+.follow-teaser {display:none;}
+.tmblr-iframe--follow-teaser.open {display:none;}
+.tmblr-iframe--follow-teaser.center {display:none;}
+
+html, body {
+    scroll-behavior: smooth;
+    }
+
+body {
+    background: url(https://i.imgur.com/dSHlW4v.jpg) top center no-repeat fixed #fefefe;
+    margin: 0;
+    background-size: cover;
+    font-family: Calibri;
+    font-size:15px;
+    }
+
+div::-webkit-scrollbar {
+    width: 1em;
+    border-radius:10px;
+    }
+ 
+div::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.25);
+    border-radius:10px;
+    }
+ 
+div::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius:10px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.75);
+    }
+
+p {
+    margin:15px;
+    }
+
+h2 {
+    letter-spacing: 4px;
+    font-style: italic;
+    font-weight: 400;
+    color: #11346e;
+    font-size: 20px;
+    text-shadow: 0px 0px 1px #fff;
+    }
+
+hr {
+    margin:auto;
+    width:90%;
+    border-top: 1px solid darkgrey;
+    }
+
+iframe {
+    background:#000;
+    }
+
+#left {
+    width:936px;
+    margin-left: -180px;
+    }
+
+#right {
+    margin-left: -220px;
+    }
+
+#cover {
+    width: 1260px;
+    margin: auto;
+    border-spacing: 0;
+    height: 762px;
+    }
+
+#cover td {
+    width:50%;
+    vertical-align:top;
+    padding:0;
+    }
+
+#logo {
+    height: 155px;
+    margin: 0px 0px 30px -60px;
+    position: relative;
+    }
+
+#container {
+    width: 640px;
+    margin: 20px 0px 0px -204px;
+    position: relative;
+    text-align: center;
+    }
+
+#download {
+    width: 672px;
+    margin-top: 70px;
+    text-align: center;
+    position: relative;
+    }
+
+#download img {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    }
+
+a {
+	transition: 0.25s;
+    }
+
+a:hover {
+    opacity:0.5;
+	transition: 0.25s;
+    }
+
+#footer {
+    width: 900px;
+    margin: auto;
+    line-height: 100px;
+    text-align: center;
+    }
+
+#footer table {
+    width: 100%;
+    text-align: center;
+    height: 6em;
+    font-style: italic;
+    }
+
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    z-index: 1001;
+    }
+
+.preloader__row {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    margin-top: -40px;
+    margin-left: -40px;
+    text-align: center;
+    animation: preloader-rotate 1s infinite linear;
+    }
+
+.preloader__item:last-child {
+    top: auto;
+    bottom: 0;
+    animation-delay: -1s;
+    }
+
+@keyframes preloader-rotate {
+    from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    }
+    to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    }
+    }
+
+.loaded_hiding .preloader {
+    transition: 0.25s opacity;
+    opacity: 0;
+    }
+
+.loaded .preloader {
+    display: none;
+    }
+
+.dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    }
+
+.dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #11346e;
+    border-color: #11346e transparent #11346e transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+    }
+
+video {
+    border-radius: 5px;
+	position: relative;
+    }
+
+.wrapper {
+	position: relative;
+	width: 900px;
+    text-align: center;
+    margin: -5px auto 50px auto;
+    }
+
+.controls {
+	height: 72px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.slider {
+    overflow: hidden;
+    border-radius: 10px;
+    height: 300px;
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0px 0px 10px #ccc;
+    backdrop-filter: blur(5px);
+    }
+
+.slides {
+	height: inherit;
+	opacity: 0;
+	position: absolute;
+	width: inherit;
+	z-index: 0;
+	-webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-o-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+    }
+
+#slide1 {
+    background: url(https://i.imgur.com/vesWV4B.jpg) center no-repeat;
+    width: 50px;
+    height: 50px;
+    border-radius: 2.5px;
+    }
+
+#slide2 {
+    background: url(https://i.imgur.com/5NnRR5d.jpg) center no-repeat;
+    width: 50px;
+    height: 50px;
+    border-radius: 2.5px;
+    }
+
+#slide3 {
+    background: url(https://i.imgur.com/jspidnu.jpg) center no-repeat;
+    width: 50px;
+    height: 50px;
+    border-radius: 2.5px;
+    }
+
+#slide4 {
+    background: url(https://i.imgur.com/9Q18A5A.jpg) center no-repeat;
+    width: 50px;
+    height: 50px;
+    border-radius: 2.5px;
+    }
+
+#slide5 {
+    background: url(https://i.imgur.com/tyY0umc.jpg) center no-repeat;
+    width: 50px;
+    height: 50px;
+    border-radius: 2.5px;
+    }
+
+#slide6 {
+    background: url(https://i.imgur.com/tBF2O0T.jpg) center no-repeat;
+    width: 50px;
+    height: 50px;
+    border-radius: 2.5px;
+    }
+
+#slide7 {
+    background: url(https://i.imgur.com/SYB3bjL.jpg) center no-repeat;
+    width: 50px;
+    height: 50px;
+    border-radius: 2.5px;
+    }
+
+#slide8 {
+    background: url(https://i.imgur.com/4boe7IY.jpg) center no-repeat;
+    width: 50px;
+    height: 50px;
+    border-radius: 2.5px;
+    }
+
+#slide9 {
+    background: url(https://i.imgur.com/k4xGc7c.jpg) center no-repeat;
+    width: 50px;
+    height: 50px;
+    border-radius: 2.5px;
+    }
+
+#slide10 {
+    background: url(https://i.imgur.com/hbFXKca.jpg) center no-repeat;
+    width: 50px;
+    height: 50px;
+    border-radius: 2.5px;
+    }
+
+#slide1:checked ~ .slider > .slide1,
+#slide2:checked ~ .slider > .slide2,
+#slide3:checked ~ .slider > .slide3,
+#slide4:checked ~ .slider > .slide4,
+#slide5:checked ~ .slider > .slide5,
+#slide6:checked ~ .slider > .slide6,
+#slide7:checked ~ .slider > .slide7,
+#slide8:checked ~ .slider > .slide8,
+#slide9:checked ~ .slider > .slide9,
+#slide10:checked ~ .slider > .slide10 {
+	opacity: 1;
+	z-index: 1;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+    }
+
+.wrapper > input {
+	display: none;
+    }
+
+.wrapper label {
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    -webkit-transition: background ease-in-out .5s;
+    -moz-transition: background ease-in-out .5s;
+    -o-transition: background ease-in-out .5s;
+    transition: background ease-in-out .5s;
+    backdrop-filter: blur(5px);
+	transition: 0.25s;
+    }
+
+.wrapper label:hover, 
+#slide1:checked ~ .controls label:nth-of-type(1),
+#slide2:checked ~ .controls label:nth-of-type(2),
+#slide3:checked ~ .controls label:nth-of-type(3),
+#slide4:checked ~ .controls label:nth-of-type(4),
+#slide5:checked ~ .controls label:nth-of-type(5),
+#slide6:checked ~ .controls label:nth-of-type(6),
+#slide7:checked ~ .controls label:nth-of-type(7),
+#slide8:checked ~ .controls label:nth-of-type(8),
+#slide9:checked ~ .controls label:nth-of-type(9),
+#slide10:checked ~ .controls label:nth-of-type(10) {
+    opacity:0.5;
+	transition: 0.25s;
+    }
+
+.wrapper label:after {
+	content: " ";
+	display: block;
+	height: 50px;
+	position: absolute;
+	top: 4px;
+    }
+
+.character {
+    width: 900px;
+    height: 300px;
+    }
+
+</style>
+
+</head>
+
+<body id="top">
+
+<div class="preloader">
+
+<div class="preloader__row">
+
+<div class="dual-ring"></div>
+
+</div>
+
+</div>
+
+<div style="width: 100%;">
+
+<table id="cover">
+
+<tbody>
+
+<tr>
+
+<td style="background: url(https://i.imgur.com/GCtJCLz.png) top left no-repeat;position: relative;left: -85px;">
+
+<div id="left">
+
+<h2 style="position: absolute;top: 610px;margin-left: 335px;width: 460px;text-align: center;color: #fff;text-shadow: 0px 0px 4px #000;">[ ЖУРНАЛ СОБЫТИЙ ]</h2>
+
+<div style="backdrop-filter: blur(5px);position: absolute;top: 662px;margin-left: 335px;width: 460px;overflow: auto;text-shadow: 0px 0px 5px #fff;height: 100px;background: rgb(255 255 255 / 0.75);border: 1px solid #ccc;border-radius: 10px;box-shadow: inset 0px 0px 10px #ccc;">
+
+<p><strong>[ 21 МАРТА 2021 ]</strong> — релиз v0.25.1</p>
+
+<hr>
+
+<p><strong>[ 12 АВГУСТА 2020 ]</strong> — релиз v0.25</p>
+
+</div>
+
+</div>
+
+</td>
+
+<td>
+
+<div id="right">
+
+<div id="logo" style="background: url(https://i.imgur.com/ndr5dY9.png) bottom center no-repeat;"></div>
+
+<div style="margin: 46px 0px 0px 16px;">
+
+<video width="640" height="360" controls="" poster="https://sun9-42.userapi.com/k4WFOvywkPyW7_P5joQsjrddeBpNdOCqMdtC2A/SmV9w4NaH6k.jpg" borrder="0">
+<source src="https://va.media.tumblr.com/tumblr_qf4xoktAxg1w8z8pp.mp4" type="video/mp4">
+</video>
+
+</div>
+
+<div id="download">
+
+<h2>[ АКТУАЛЬНАЯ ВЕРСИЯ ПЕРЕВОДА — 0.25.1 ]</h2>
+
+<a href="https://vk.com/@mahoyorussian-manual" target="_blank" style="margin-right: 10px;"><img src="https://i.imgur.com/yjj9lvm.jpg"></a><a href="https://vk.cc/bZXIjT" target="_blank" style="margin-right: 10px;"><img src="https://i.imgur.com/WHEeeF9.jpg"></a><a href="https://vk.cc/bZXIky" target="_blank"><img src="https://i.imgur.com/F4wcWXP.jpg"></a>
+
+</div>
+
+</div>
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+
+
+<!-- STORY -->
+
+
+
+<div style="width: 900px;margin: 50px auto;text-align: center;">
+
+<div style="width: 40px;height: 40px;backdrop-filter: blur(5px);clip-path: polygon(20px 0px, 0px 0px, 20px 0px, 40px 20px, 20px 40px, 0px 20px);margin: 4px;float: right;"></div>
+
+<div style="width: 250px;height: 40px;backdrop-filter: blur(5px);clip-path: polygon(20px 0px, 230px 0px, 250px 20px, 230px 40px, 20px 40px, 0px 20px);margin: 4px;float: left;"></div>
+
+<div style="background: url(https://i.imgur.com/GTc7YWq.png) top center no-repeat;width:900px;height: 48px;position: relative;margin: auto;"></div>
+
+<a href="#top">
+<div style="width: 48px;height: 40px;float: right;position: relative;top: -44px;clip-path: polygon(20px 0px, 0px 0px, 20px 0px, 40px 20px, 20px 40px, 0px 20px);">
+<svg width="30" height="34" viewBox="0 0 20 20" style="fill: #143063;">
+<path d="M9.646 6.646a.5.5 0 01.708 0l6 6a.5.5 0 01-.708.708L10 7.707l-5.646 5.647a.5.5 0 01-.708-.708l6-6z"></path>
+</svg>
+</div>
+</a>
+
+</div>
+
+<div style="width: 1100px;box-shadow: inset 0px 0px 10px #ccc;height: 300px;margin: 50px auto;border: 1px solid #ccc;background: url(https://i.imgur.com/laui9SG.png) center no-repeat;border-radius: 20px;backdrop-filter: blur(5px);"></div>
+
+
+
+<!-- CHARACTERS -->
+
+
+
+<div style="width: 900px;margin: 50px auto;text-align: center;">
+
+<div style="width: 40px;height: 40px;backdrop-filter: blur(5px);clip-path: polygon(20px 0px, 0px 0px, 20px 0px, 40px 20px, 20px 40px, 0px 20px);margin: 4px;float: right;"></div>
+
+<div style="width: 250px;height: 40px;backdrop-filter: blur(5px);clip-path: polygon(20px 0px, 230px 0px, 250px 20px, 230px 40px, 20px 40px, 0px 20px);margin: 4px;float: left;"></div>
+
+<div style="background: url(https://i.imgur.com/PWMx4pk.png) top center no-repeat;width:900px;height: 48px;position: relative;margin: auto;"></div>
+
+<a href="#top">
+<div style="width: 48px;height: 40px;float: right;position: relative;top: -44px;clip-path: polygon(20px 0px, 0px 0px, 20px 0px, 40px 20px, 20px 40px, 0px 20px);">
+<svg width="30" height="34" viewBox="0 0 20 20" style="fill: #143063;">
+<path d="M9.646 6.646a.5.5 0 01.708 0l6 6a.5.5 0 01-.708.708L10 7.707l-5.646 5.647a.5.5 0 01-.708-.708l6-6z"></path>
+</svg>
+</div>
+</a>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="wrapper">
+
+<input type="radio" name="point" id="slide1" checked="">
+
+<input type="radio" name="point" id="slide2">
+
+<input type="radio" name="point" id="slide3">
+
+<input type="radio" name="point" id="slide4">
+
+<input type="radio" name="point" id="slide5">
+
+<input type="radio" name="point" id="slide6">
+
+<input type="radio" name="point" id="slide7">
+
+<input type="radio" name="point" id="slide8">
+
+<input type="radio" name="point" id="slide9">
+
+<input type="radio" name="point" id="slide10">
+
+<div class="controls">
+
+<label for="slide1"><div id="slide1"></div></label>
+<label for="slide2"><div id="slide2"></div></label>
+<label for="slide3"><div id="slide3"></div></label>
+<label for="slide4"><div id="slide4"></div></label>
+<label for="slide5"><div id="slide5"></div></label>
+<label for="slide6"><div id="slide6"></div></label>
+<label for="slide7"><div id="slide7"></div></label>
+<label for="slide8"><div id="slide8"></div></label>
+<label for="slide9"><div id="slide9"></div></label>
+<label for="slide10"><div id="slide10"></div></label>
+
+</div>
+
+<div class="slider">
+
+<div class="slides slide1">
+
+<div class="character" style="background: url(https://i.imgur.com/FvzyJFp.png) top center no-repeat;">
+
+</div>
+    
+</div>
+
+<div class="slides slide2">
+    
+<div class="character" style="background: url(https://i.imgur.com/kafsyyJ.png) top center no-repeat;">
+
+</div>
+    
+</div>
+
+<div class="slides slide3">
+    
+<div class="character" style="background: url(https://i.imgur.com/4a4OKfY.png) top center no-repeat;">
+
+</div>
+    
+</div>
+
+<div class="slides slide4">
+    
+<div class="character" style="background: url(https://i.imgur.com/AX2FcJd.png) top center no-repeat;">
+
+</div>
+    
+</div>
+
+<div class="slides slide5">
+    
+<div class="character" style="background: url(https://i.imgur.com/m52QRee.png) top center no-repeat;">
+
+</div>
+    
+</div>
+
+<div class="slides slide6">
+    
+<div class="character" style="background: url(https://i.imgur.com/K28k6a0.png) top center no-repeat;">
+
+</div>
+    
+</div>
+
+<div class="slides slide7">
+    
+<div class="character" style="background: url(https://i.imgur.com/L5uygYN.png) top center no-repeat;">
+
+</div>
+    
+</div>
+
+<div class="slides slide8">
+    
+<div class="character" style="background: url(https://i.imgur.com/fSupgM0.png) top center no-repeat;">
+
+</div>
+    
+</div>
+
+<div class="slides slide9">
+    
+<div class="character" style="background: url(https://i.imgur.com/GjEKC7c.png) top center no-repeat;">
+
+</div>
+    
+</div>
+
+<div class="slides slide10">
+    
+<div class="character" style="background: url(https://i.imgur.com/8NClNKy.png) top center no-repeat;">
+
+</div>
+    
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- DEVELOPERS -->
+
+
+
+<div style="width: 900px;margin: 50px auto;text-align: center;">
+
+<div style="width: 40px;height: 40px;backdrop-filter: blur(5px);clip-path: polygon(20px 0px, 0px 0px, 20px 0px, 40px 20px, 20px 40px, 0px 20px);margin: 4px;float: right;"></div>
+
+<div style="width: 250px;height: 40px;backdrop-filter: blur(5px);clip-path: polygon(20px 0px, 230px 0px, 250px 20px, 230px 40px, 20px 40px, 0px 20px);margin: 4px;float: left;"></div>
+
+<div style="background: url(https://i.imgur.com/UfAgeVb.png) top center no-repeat;width:900px;height: 48px;position: relative;margin: auto;"></div>
+
+<a href="#top">
+<div style="width: 48px;height: 40px;float: right;position: relative;top: -44px;clip-path: polygon(20px 0px, 0px 0px, 20px 0px, 40px 20px, 20px 40px, 0px 20px);">
+<svg width="30" height="34" viewBox="0 0 20 20" style="fill: #143063;">
+<path d="M9.646 6.646a.5.5 0 01.708 0l6 6a.5.5 0 01-.708.708L10 7.707l-5.646 5.647a.5.5 0 01-.708-.708l6-6z"></path>
+</svg>
+</div>
+</a>
+
+</div>
+
+<div style="width: 900px;height: 145px;margin: -10px auto 50px auto;background: url(https://i.imgur.com/rTTLOIQ.png) center no-repeat;"></div>
+
+
+
+<!-- FOOTER -->
+
+
+
+<div style="width: 900px;margin: 20px auto;text-align: center;height: 44px;">
+
+<div style="width: 40px;height: 40px;backdrop-filter: blur(5px);clip-path: polygon(20px 0px, 0px 0px, 20px 0px, 40px 20px, 20px 40px, 0px 20px);margin: auto;position: relative;"></div>
+
+<div style="background: url(https://i.imgur.com/c9IL8Wp.png) top center no-repeat;width:900px;height: 48px;margin: auto;position: relative;top: -42px;"></div>
+
+<a href="#top">
+<div style="width: 48px;height: 40px;position: relative;top: -86px;clip-path: polygon(20px 0px, 0px 0px, 20px 0px, 40px 20px, 20px 40px, 0px 20px);margin: auto;">
+<svg width="30" height="34" viewBox="0 0 20 20" style="fill: #143063;">
+<path d="M9.646 6.646a.5.5 0 01.708 0l6 6a.5.5 0 01-.708.708L10 7.707l-5.646 5.647a.5.5 0 01-.708-.708l6-6z"></path>
+</svg>
+</div>
+</a>
+
+</div>
+
+
+
+<div id="footer">
+
+<div style="backdrop-filter: blur(2.5px);line-height: 20px;height: 70px;border-radius: 10px;box-shadow: inset 0px 0px 10px #ccc;border: 1px solid #ccc;margin: 0px auto 25px auto;background: rgb(255 255 255 / 0.25);display: grid;align-items: center;flex-wrap: nowrap;">«Ведьмина ночь» ⋅ Неофициальный русский перевод «Mahoutsukai no Yoru: Witch on the Holy Night»<br>Перевод выполнен кружком INSANEATTIC ⋅ Права на произведение принадлежат TYPE-MOON и Aniplex</div>
+
+<div style="float: left;height: 40px;margin-bottom: 25px;display: flex;align-items: center;"><a href="http://typemoon.com/" target="_blank" style="margin-right: 25px;"><img src="https://i.imgur.com/l8XjtnS.png"></a><a href="https://www.aniplex.co.jp/" target="_blank" style="margin-right: 25px;"><img src="https://i.imgur.com/Z55Cn8f.png"></a><a href="https://vk.com/insaneattic" target="_blank"><img src="https://i.imgur.com/aUDrv8l.png"></a></div>
+
+<div style="float: right;height: 40px;margin-bottom: 25px;display: flex;align-items: center;"><a href="https://vk.com/mahoyorussian" target="_blank"><img src="https://i.imgur.com/oXuWshN.png"></a></div>
+
+</div>
+
+
+
+<script>
+
+window.onload = function () {
+    document.body.classList.add('loaded_hiding');
+    window.setTimeout(function () {
+    document.body.classList.add('loaded');
+    document.body.classList.remove('loaded_hiding');
+    }, 500);
+    }
+
+$('a[href*="#"]')
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { 
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); 
+            $target.focus(); 
+          };
+        });
+      }
+    }
+  });
+
+</script>
+
+</body>
+    
+</html>
